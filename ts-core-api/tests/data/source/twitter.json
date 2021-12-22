@@ -1,0 +1,189 @@
+{
+    "account": {
+        "email": "e@example.de",
+        "username": "marius",
+        "accountDisplayName": "marius"
+    },
+    "accountTimezone": {
+        "accountId": "000000000000000000000000",
+        "timeZone": "Pacific Time (US & Canada)"
+    },
+    "p13nData": {
+        "demographics": {
+            "languages": [
+                {
+                    "language": "German",
+                    "isDisabled": false
+                },
+                {
+                    "language": "English",
+                    "isDisabled": false
+                }
+            ],
+            "genderInfo": {
+                "gender": "male"
+            }
+        },
+        "interests": {
+            "interests": [
+                {
+                    "name": "Architecture",
+                    "isDisabled": false
+                },
+                {
+                    "name": "Arduino",
+                    "isDisabled": false
+                },
+                {
+                    "name": "Arknights",
+                    "isDisabled": false
+                },
+                {
+                    "name": "Art",
+                    "isDisabled": false
+                },
+                {
+                    "name": "Artificial intelligence",
+                    "isDisabled": false
+                },
+                {
+                    "name": "Arts & culture",
+                    "isDisabled": false
+                }
+            ],
+            "partnerInterests": [],
+            "audienceAndAdvertisers": {
+                "numAudiences": "0",
+                "advertisers": [],
+                "lookalikeAdvertisers": [
+                    "@wileyinresearch"
+                ]
+            },
+            "shows": [
+                "Black Mirror (Netflix)",
+                "Black Panther",
+                "Broadchurch"
+            ]
+        },
+        "inferredAgeInfo": {
+            "age": [
+                "13-54"
+            ],
+            "birthDate": ""
+        }
+    },
+    "device": {
+        "phoneNumber": "+4912345678900"
+    },
+    "profile": {
+        "description": {
+            "bio": "biobio biobio",
+            "website": "https://t.co/123456789",
+            "location": "the Internet"
+        },
+        "avatarMediaUrl": "https://pbs.twimg.com/profile_images/0000000000000000000/0000000000.jpg",
+        "headerMediaUrl": "https://pbs.twimg.com/profile_banners/000000000000000000/00000000000"
+    },
+    "tweet": [
+        {
+            "tweet": {
+                "retweeted": false,
+                "source": "<a href=\"http://erased5434447.com\" rel=\"nofollow\">erased5434447</a>",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "Berlin",
+                            "indices": [
+                                "34",
+                                "41"
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [
+                        {
+                            "name": "Leena",
+                            "screen_name": "reticuleena",
+                            "indices": [
+                                "3",
+                                "15"
+                            ],
+                            "id_str": "23185038",
+                            "id": "23185038"
+                        }
+                    ],
+                    "urls": []
+                },
+                "display_text_range": [
+                    "0",
+                    "140"
+                ],
+                "favorite_count": "0",
+                "id_str": "954682047179771904",
+                "truncated": false,
+                "retweet_count": "0",
+                "id": "954682047179771904",
+                "created_at": "Sat Jan 20 11:48:31 +0000 2018",
+                "favorited": false,
+                "full_text": "RT @reticuleena: Die CDU bedrängt #Berlin mit einem Volksbegehren, das verfassungswidrige Repression als nützlich verkauft. Das muss gestop…",
+                "lang": "de"
+            }
+        },
+        {
+            "tweet": {
+                "retweeted": false,
+                "source": "<a href=\"http://erased5434447.com\" rel=\"nofollow\">erased5434447</a>",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [
+                        {
+                            "name": "CCC Event Logistics",
+                            "screen_name": "c3logistic",
+                            "indices": [
+                                "3",
+                                "14"
+                            ],
+                            "id_str": "811173206887460868",
+                            "id": "811173206887460868"
+                        }
+                    ],
+                    "urls": [
+                        {
+                            "url": "https://t.co/X6etNl80vr",
+                            "expanded_url": "https://events.ccc.de/2018/01/02/kommt-vorbei-der-34c3-baut-ab/",
+                            "display_url": "events.ccc.de/2018/01/02/kom…",
+                            "indices": [
+                                "59",
+                                "82"
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/X6etNl80vr",
+                            "expanded_url": "https://events.ccc.de/2018/01/02/kommt-vorbei-der-34c3-baut-ab/",
+                            "display_url": "events.ccc.de/2018/01/02/kom…",
+                            "indices": [
+                                "114",
+                                "137"
+                            ]
+                        }
+                    ]
+                },
+                "display_text_range": [
+                    "0",
+                    "140"
+                ],
+                "favorite_count": "0",
+                "id_str": "948506607025090560",
+                "truncated": false,
+                "retweet_count": "0",
+                "id": "948506607025090560",
+                "possibly_sensitive": false,
+                "created_at": "Wed Jan 03 10:49:32 +0000 2018",
+                "favorited": false,
+                "full_text": "RT @c3logistic: Wir brauchen heute eure Hilfe.\nMehr Infos: https://t.co/X6etNl80vr\nWe need your help.\nMore infos: https://t.co/X6etNl80vr\n#…",
+                "lang": "de"
+            }
+        }
+    ]
+}

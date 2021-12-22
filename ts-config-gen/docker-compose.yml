@@ -1,0 +1,27 @@
+version: '3'
+services:
+
+    mongo:
+        image: docker.io/library/mongo
+        container_name: config-gen-mongo
+        hostname: config-gen-mongo
+        environment:
+            MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+            MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+            MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+        restart: on-failure
+        volumes:
+            - ./config_gen_db/volumes/mongo:/data/db:Z
+            - ./config_gen_db/mongodb.conf:/etc/mongodb.conf:Z
+            - ./config_gen_db/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:Z
+        command: --config /etc/mongodb.conf
+
+
+    config_gen:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        depends_on:
+          - 'mongo'
+        ports:
+            - 8008:8008

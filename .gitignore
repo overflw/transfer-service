@@ -1,0 +1,15 @@
+volumes
+.archiv
+
+.vscode
+.mypy_cache
+.pytest_cache
+*.pyc
+*.pyo
+.benchmarks
+__pycache__/
+.pytest_cache/
+
+
+Pipfile
+Pipfile.lock

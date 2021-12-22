@@ -1,0 +1,263 @@
+{
+    "preferredUsername": "flow",
+    "name": "flow",
+    "summary": "<p>degrowth, green it<br />fairness in algorithms<br />open source hw<br />weird machines</p>",
+    "url": "https://chaos.social/@flow",
+    "manuallyApprovesFollowers": false,
+    "discoverable": true,
+    "icon": {
+        "type": "Image",
+        "mediaType": "image/png",
+        "url": "avatar.png"
+    },
+    "image": {
+        "type": "Image",
+        "mediaType": "image/jpeg",
+        "url": "header.jpg"
+    },
+    "outbox": {
+        "type": "OrderedCollection",
+        "orderedItems": [
+            {
+                "id": "https://chaos.social/users/flow/statuses/106635655369755586/activity",
+                "type": "Create",
+                "actor": "https://chaos.social/users/flow",
+                "published": "2021-07-24T12:49:31Z",
+                "to": [
+                    "https://chaos.social/users/flow/followers"
+                ],
+                "cc": [
+                    "https://www.w3.org/ns/activitystreams#Public"
+                ],
+                "object": {
+                    "id": "https://chaos.social/users/flow/statuses/106635655369755586",
+                    "type": "Note",
+                    "summary": null,
+                    "inReplyTo": null,
+                    "published": "2021-07-24T12:49:31Z",
+                    "url": "https://chaos.social/@flow/106635655369755586",
+                    "attributedTo": "https://chaos.social/users/flow",
+                    "to": [
+                        "https://chaos.social/users/flow/followers"
+                    ],
+                    "cc": [
+                        "https://www.w3.org/ns/activitystreams#Public"
+                    ],
+                    "sensitive": false,
+                    "atomUri": "https://chaos.social/users/flow/statuses/106635655369755586",
+                    "inReplyToAtomUri": null,
+                    "conversation": "tag:chaos.social,2021-07-24:objectId=49525828:objectType=Conversation",
+                    "content": "\u003cp\u003eRT @C_AB_\u003cbr /\u003eLinks: was man verdient. Rechts: was man dann idealerweise wählen sollte, wenn man Steuern sparen möchte. \u003ca href=\"https://chaos.social/tags/DieAnstalt\" class=\"mention hashtag\" rel=\"tag\"\u003e#\u003cspan\u003eDieAnstalt\u003c/span\u003e\u003c/a\u003e\u003c/p\u003e",
+                    "contentMap": {
+                        "de": "\u003cp\u003eRT @C_AB_\u003cbr /\u003eLinks: was man verdient. Rechts: was man dann idealerweise wählen sollte, wenn man Steuern sparen möchte. \u003ca href=\"https://chaos.social/tags/DieAnstalt\" class=\"mention hashtag\" rel=\"tag\"\u003e#\u003cspan\u003eDieAnstalt\u003c/span\u003e\u003c/a\u003e\u003c/p\u003e"
+                    },
+                    "attachment": [
+                        {
+                            "type": "Document",
+                            "mediaType": "image/jpeg",
+                            "url": "media_attachments/files/106/635/655/353/738/953/original/fb689091919bdda5.jpeg",
+                            "name": null,
+                            "blurhash": "USP%R?cFt7rW01n,WBkV4nwINGS~8_X8j]n%",
+                            "width": 1200,
+                            "height": 1200
+                        }
+                    ],
+                    "tag": [
+                        {
+                            "type": "Hashtag",
+                            "href": "https://chaos.social/tags/dieanstalt",
+                            "name": "#dieanstalt"
+                        }
+                    ],
+                    "replies": {
+                        "id": "https://chaos.social/users/flow/statuses/106635655369755586/replies",
+                        "type": "Collection",
+                        "first": {
+                            "type": "CollectionPage",
+                            "next": "https://chaos.social/users/flow/statuses/106635655369755586/replies?only_other_accounts=true\u0026page=true",
+                            "partOf": "https://chaos.social/users/flow/statuses/106635655369755586/replies",
+                            "items": []
+                        }
+                    }
+                },
+                "signature": {
+                    "type": "RsaSignature2017",
+                    "creator": "https://chaos.social/users/flow#main-key",
+                    "created": "2021-11-04T13:29:49Z",
+                    "signatureValue": "NljrhyOa6Df3F9yGTDADy0AxWZuVNovKX2lqtUs1su4i+M/6ogzwj0a7AmdSsDkhmW7iC3ONUoipkdYCBfopFxenrMEa1dqfDTEKHHC9JOU645UTnrJ4bPoQqifLb8ohM8qd309xHDHc5G0YVTo/aYnksG5pTJwPtmtHYqbrTN1RpveThINpr/6Uhn3eZOaQRsYroiBJ8cIroF3GEvrqjUpFJxeB6B4H+et+VynzAl6LPyq9QfWzIFQuB+c87NW6Taf/71J6EzlDb1WCMO/OLHoLbezy8D+mHovpmP7bZAX6cNyw8nAkDiajMgb+DcQ/ECLwRxn5hwkNo4/+uUIAxQ=="
+                }
+            },
+            {
+                "id": "https://chaos.social/users/flow/statuses/106659883970164200/activity",
+                "type": "Create",
+                "actor": "https://chaos.social/users/flow",
+                "published": "2021-07-28T19:31:10Z",
+                "to": [
+                    "https://chaos.social/users/flow/followers"
+                ],
+                "cc": [
+                    "https://www.w3.org/ns/activitystreams#Public"
+                ],
+                "object": {
+                    "id": "https://chaos.social/users/flow/statuses/106659883970164200",
+                    "type": "Note",
+                    "summary": null,
+                    "inReplyTo": null,
+                    "published": "2021-07-28T19:31:10Z",
+                    "url": "https://chaos.social/@flow/106659883970164200",
+                    "attributedTo": "https://chaos.social/users/flow",
+                    "to": [
+                        "https://chaos.social/users/flow/followers"
+                    ],
+                    "cc": [
+                        "https://www.w3.org/ns/activitystreams#Public"
+                    ],
+                    "sensitive": false,
+                    "atomUri": "https://chaos.social/users/flow/statuses/106659883970164200",
+                    "inReplyToAtomUri": null,
+                    "conversation": "tag:chaos.social,2021-07-28:objectId=49678566:objectType=Conversation",
+                    "content": "\u003cp\u003eRT @BertheJentzsch\u003cbr /\u003eStädte für Menschen:\u003cbr /\u003e@VanMoof  zeigt an 5 Verkehrsknotenpunkten z. B. Rosenthaler Platz, Torstraße oder Brandenburger Tor wie \u003ca href=\"https://chaos.social/tags/Berlin\" class=\"mention hashtag\" rel=\"tag\"\u003e#\u003cspan\u003eBerlin\u003c/span\u003e\u003c/a\u003e nach einem erfolgreichen Referendum @VBerlinautofrei aussehen könnte. Have a look!⬇️ \u003ca href=\"https://twitter.com/VanMoof/status/1420353347320754177\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"\u003e\u003cspan class=\"invisible\"\u003ehttps://\u003c/span\u003e\u003cspan class=\"ellipsis\"\u003etwitter.com/VanMoof/status/142\u003c/span\u003e\u003cspan class=\"invisible\"\u003e0353347320754177\u003c/span\u003e\u003c/a\u003e\u003c/p\u003e",
+                    "contentMap": {
+                        "de": "\u003cp\u003eRT @BertheJentzsch\u003cbr /\u003eStädte für Menschen:\u003cbr /\u003e@VanMoof  zeigt an 5 Verkehrsknotenpunkten z. B. Rosenthaler Platz, Torstraße oder Brandenburger Tor wie \u003ca href=\"https://chaos.social/tags/Berlin\" class=\"mention hashtag\" rel=\"tag\"\u003e#\u003cspan\u003eBerlin\u003c/span\u003e\u003c/a\u003e nach einem erfolgreichen Referendum @VBerlinautofrei aussehen könnte. Have a look!⬇️ \u003ca href=\"https://twitter.com/VanMoof/status/1420353347320754177\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"\u003e\u003cspan class=\"invisible\"\u003ehttps://\u003c/span\u003e\u003cspan class=\"ellipsis\"\u003etwitter.com/VanMoof/status/142\u003c/span\u003e\u003cspan class=\"invisible\"\u003e0353347320754177\u003c/span\u003e\u003c/a\u003e\u003c/p\u003e"
+                    },
+                    "attachment": [],
+                    "tag": [
+                        {
+                            "type": "Hashtag",
+                            "href": "https://chaos.social/tags/berlin",
+                            "name": "#berlin"
+                        }
+                    ],
+                    "replies": {
+                        "id": "https://chaos.social/users/flow/statuses/106659883970164200/replies",
+                        "type": "Collection",
+                        "first": {
+                            "type": "CollectionPage",
+                            "next": "https://chaos.social/users/flow/statuses/106659883970164200/replies?only_other_accounts=true\u0026page=true",
+                            "partOf": "https://chaos.social/users/flow/statuses/106659883970164200/replies",
+                            "items": []
+                        }
+                    }
+                },
+                "signature": {
+                    "type": "RsaSignature2017",
+                    "creator": "https://chaos.social/users/flow#main-key",
+                    "created": "2021-11-04T13:29:49Z",
+                    "signatureValue": "WsQzOTsYxpdqMX2iNceRMBb1aH92lGPmWvGCu7jp/G/E8ImF3MhLV/YEadykyquVIo8+48hNXA94ITeI6KpC+boBBjoZxMxDwagL++Gmfo2DE2d5Kth1/UafwMADK9NoWQQUZyzoT8xyDYskpuTtx3OwN3l4f7Qy2JJ4ysHIEnNriU3TOrfbjPy+CTtNrBELzJ/Gs1VYx4tYkmPH3B90wUh5J8G9oLHLE3nlV2pwSNH/yHaSWp4tvR0qiaAbUjM8VOMxLITK4HKO7Zirr0oiHVl/L2Y7Msyck/SfB0twntR8NTL/yFJxVHYxjbqEmn/Tb3Zh4D4+U0pk0ZuSYmPk3w=="
+                }
+            },
+            {
+                "id": "https://chaos.social/users/flow/statuses/106682391369397489/activity",
+                "type": "Create",
+                "actor": "https://chaos.social/users/flow",
+                "published": "2021-08-01T18:55:06Z",
+                "to": [
+                    "https://chaos.social/users/flow/followers"
+                ],
+                "cc": [
+                    "https://www.w3.org/ns/activitystreams#Public"
+                ],
+                "object": {
+                    "id": "https://chaos.social/users/flow/statuses/106682391369397489",
+                    "type": "Note",
+                    "summary": null,
+                    "inReplyTo": null,
+                    "published": "2021-08-01T18:55:06Z",
+                    "url": "https://chaos.social/@flow/106682391369397489",
+                    "attributedTo": "https://chaos.social/users/flow",
+                    "to": [
+                        "https://chaos.social/users/flow/followers"
+                    ],
+                    "cc": [
+                        "https://www.w3.org/ns/activitystreams#Public"
+                    ],
+                    "sensitive": false,
+                    "atomUri": "https://chaos.social/users/flow/statuses/106682391369397489",
+                    "inReplyToAtomUri": null,
+                    "conversation": "tag:chaos.social,2021-08-01:objectId=49816104:objectType=Conversation",
+                    "content": "\u003cp\u003eRT @DigitalFreiheit\u003cbr /\u003eUpgrade dein Level 🤙 \u003ca href=\"https://chaos.social/tags/ReclaimYourFace\" class=\"mention hashtag\" rel=\"tag\"\u003e#\u003cspan\u003eReclaimYourFace\u003c/span\u003e\u003c/a\u003e \u003cbr /\u003e✍️\u003ca href=\"http://reclaimyourfaice.eu/de\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"\"\u003ereclaimyourfaice.eu/de\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e\u003c/p\u003e",
+                    "contentMap": {
+                        "de": "\u003cp\u003eRT @DigitalFreiheit\u003cbr /\u003eUpgrade dein Level 🤙 \u003ca href=\"https://chaos.social/tags/ReclaimYourFace\" class=\"mention hashtag\" rel=\"tag\"\u003e#\u003cspan\u003eReclaimYourFace\u003c/span\u003e\u003c/a\u003e \u003cbr /\u003e✍️\u003ca href=\"http://reclaimyourfaice.eu/de\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"\"\u003ereclaimyourfaice.eu/de\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e\u003c/p\u003e"
+                    },
+                    "attachment": [
+                        {
+                            "type": "Document",
+                            "mediaType": "image/jpeg",
+                            "url": "media_attachments/files/106/682/391/365/575/336/original/57dabe2071cabda5.jpeg",
+                            "name": null,
+                            "blurhash": "U-J@,uW=s:WC~qjZayj@.8oeWXoexuayWBjZ",
+                            "width": 1200,
+                            "height": 934
+                        }
+                    ],
+                    "tag": [
+                        {
+                            "type": "Hashtag",
+                            "href": "https://chaos.social/tags/ReclaimYourFace",
+                            "name": "#ReclaimYourFace"
+                        }
+                    ],
+                    "replies": {
+                        "id": "https://chaos.social/users/flow/statuses/106682391369397489/replies",
+                        "type": "Collection",
+                        "first": {
+                            "type": "CollectionPage",
+                            "next": "https://chaos.social/users/flow/statuses/106682391369397489/replies?only_other_accounts=true\u0026page=true",
+                            "partOf": "https://chaos.social/users/flow/statuses/106682391369397489/replies",
+                            "items": []
+                        }
+                    }
+                },
+                "signature": {
+                    "type": "RsaSignature2017",
+                    "creator": "https://chaos.social/users/flow#main-key",
+                    "created": "2021-11-04T13:29:49Z",
+                    "signatureValue": "Jdetf5aCi8Iite89P46joZjTMue1ZIlLwxlzINoTY9uE7fgP0nzCgwNcLrbddTm7sSn1ltPpthL8Fu+wTGjyL7+4G2vH1xyWZMhoZyNf0z3al8t0CN41f86zw1VHmJFUzvVOZxsoNHN1/wfyaTZOxS/Xu/ZviUxIWAILK0o/zXOtPUs3e/bujWiFS9sVR2qwgJjJa4fyKnU3lH2Mn4Cg/v4VlgSCunlIoid4FmLG9XhyDouSr9AOqKvvJuK31suTGdZxt1Bv2WCgzydyCVxqQ0Lnc+OleNnTHfH2vLBjP9NgXjGUwyWuCg1kV5md4FafiOsdGYfLrncEgL/OV+2MMw=="
+                }
+            },
+            {
+                "@context": "https://www.w3.org/ns/activitystreams",
+                "id": "https://chaos.social/users/flow/statuses/106731955616260464/activity",
+                "type": "Announce",
+                "actor": "https://chaos.social/users/flow",
+                "published": "2021-08-10T12:59:56Z",
+                "to": [
+                    "https://www.w3.org/ns/activitystreams#Public"
+                ],
+                "cc": [
+                    "https://mstdn.social/users/stux",
+                    "https://chaos.social/users/flow/followers"
+                ],
+                "object": "https://mstdn.social/users/stux/statuses/106720445293202334"
+            },
+            {
+                "@context": "https://www.w3.org/ns/activitystreams",
+                "id": "https://chaos.social/users/flow/statuses/106739990174761253/activity",
+                "type": "Announce",
+                "actor": "https://chaos.social/users/flow",
+                "published": "2021-08-11T23:03:14Z",
+                "to": [
+                    "https://www.w3.org/ns/activitystreams#Public"
+                ],
+                "cc": [
+                    "https://mastodon.art/users/Joanie",
+                    "https://chaos.social/users/flow/followers"
+                ],
+                "object": "https://mastodon.art/users/Joanie/statuses/106739097933097309"
+            }
+        ]
+    },
+    "likes": {
+        "type": "OrderedCollection",
+        "orderedItems": [
+            "https://chaos.social/users/esureL/statuses/100612334178642885",
+            "https://octodon.social/users/ItsTheManOnTheMoon/statuses/101497294782814372",
+            "https://chaos.social/users/leah/statuses/102387913238894592",
+            "https://chaos.social/users/Blue1337Blood/statuses/103308415757210580",
+            "https://botsin.space/users/waitingforC3/statuses/103339760618459480",
+            "https://mastodon.xyz/users/nextcloud/statuses/104318779372185685",
+            "https://chaos.social/users/Blue1337Blood/statuses/104369371549257944",
+            "https://chaos.social/users/joliyea/statuses/104405012611601054"
+        ]
+    }
+}

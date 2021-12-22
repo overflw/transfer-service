@@ -1,0 +1,27 @@
+{
+    "address": "https://api.acme.com/datadis/<id>",
+    "colleague": [
+        "http://www.xyz.edu/students/alicejones.html",
+        "http://www.xyz.edu/students/bobsmith.html"
+    ],
+    "email": "mailto:jane-doe@xyz.edu",
+    "image": "https://api.acme.com/fetchable-url/janedoe.jpg",
+    "jobTitle": "Professor",
+    "givenName": "Jane",
+    "familyName": "Doe",
+    "gender": "Diverse",
+    "telephone": "(425) 123-4567",
+    "url": "http://www.janedoe.com",
+    "photographs": [
+        {
+            "author": "Jane Doe",
+            "contentLocation": "Puerto Vallarta, Mexico",
+            "url": "https://api.acme.com/fetchable-url/mexico-beach.jpg",
+            "datePublished": "2008-01-25",
+            "description": "I took this picture while on vacation last year.",
+            "name": "Beach in Mexico",
+            "width": "500",
+            "height": "500"
+        }
+    ]
+}
