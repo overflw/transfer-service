@@ -2,7 +2,8 @@
 <!--
 Introduction
 -->
-The data translation service concept is an endeavor to create a data portability framework. Data portability describes the transfer of user (aka data subject) data from a source data controller (e.g. Twitter) to a target data controller (e.g. a Mastodon Host). The translation service system was designed to allow a broad range of Controllers to participate, while minimizing the effort needed to enable translations with a new Controller. To archive this goal, an architecture relying on semantic schema annotations of the source and target data schemas was explored and partially implemented.
+To facilitate personal data transfers, the data translation service provides concept for a future data portability framework. 
+Data portability describes the transfer of user (aka data subject) data from a source data controller (e.g. Twitter) to a target data controller (e.g. a Mastodon Host). The concept aims to allow a broad range of Controllers to participate, while minimizing the effort needed to enable translations with a new Controller. To archive this goal, an architecture relying on semantic schema annotations of the source and target data schemas was explored and partially implemented.
 
 This repository contains an early prototype implementation for a data translation service (TS). The prototype was created as part of the bachelor thesis ["Semantic Schema Annotations for Portability of Personal Data"](https://github.com/overflw/BA-Latex).
 
