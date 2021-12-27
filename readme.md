@@ -1,11 +1,11 @@
-# Translation Service
+# Transfer Service
 <!--
 Introduction
 -->
-To facilitate personal data transfers, the data translation service provides a concept for a future data portability framework. 
+To facilitate personal data transfers, the data transfer service provides a concept for a future data portability framework. 
 Data portability describes the transfer of user (aka data subject) data from a source data controller (e.g. Twitter) to a target data controller (e.g. a Mastodon Host). The concept aims to allow a broad range of Controllers to participate, while minimizing the effort needed to enable translations with a new Controller. To archive this goal, an architecture relying on semantic schema annotations of the source and target data schemas was explored and partially implemented.
 
-This repository contains an early prototype implementation for a data translation service (TS). The prototype was created as part of the bachelor thesis ["Semantic Schema Annotations for Portability of Personal Data"](https://github.com/overflw/BA-Latex).
+This repository contains an early prototype implementation for a data transfer service (TS). The prototype was created as part of the bachelor thesis ["Semantic Schema Annotations for Portability of Personal Data"](https://github.com/overflw/BA-Latex).
 
 ## Setup 
 
@@ -36,7 +36,7 @@ For a detailed description of the concept please see the corresponding thesis ch
 
 ## Architecture
 
-At its core a TS consists of an API endpoint _A_; a data transfer management module _T_; and a translation generation module _G_. A transfer flow between two data controllers starts with a data subject submitting a request for a data transfer (1) via the API-endpoint. A transfer request must contain the source and target data controller URL and supply the corresponding authentication tokens. The request is passed on to _T_ via the API (2). _T_ can either query the required transformation from an external repository or from a local generation module _G_. Local rule generation requires mapping information to and from RDF for both data controllers. These mapping files are either queried from a repository or are provided by the corresponding controller. The retrieved translation configuration is applied to the source data accessed via the API (4) and finally, the transformed data are transferred to the target endpoint (5). The translation service architecture was inspired by the [DTP](datatransferproject.dev/). 
+At its core a TS consists of an API endpoint _A_; a data transfer management module _T_; and a translation generation module _G_. A transfer flow between two data controllers starts with a data subject submitting a request for a data transfer (1) via the API-endpoint. A transfer request must contain the source and target data controller URL and supply the corresponding authentication tokens. The request is passed on to _T_ via the API (2). _T_ can either query the required transformation from an external repository or from a local generation module _G_. Local rule generation requires mapping information to and from RDF for both data controllers. These mapping files are either queried from a repository or are provided by the corresponding controller. The retrieved translation configuration is applied to the source data accessed via the API (4) and finally, the transformed data are transferred to the target endpoint (5). The transfer service architecture was inspired by the [DTP](datatransferproject.dev/). 
 
 <!-- 
 Include architecture overview
