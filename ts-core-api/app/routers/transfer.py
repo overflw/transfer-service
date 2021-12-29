@@ -2,7 +2,7 @@ from typing import Any, List
 from fastapi import APIRouter, Depends, Body
 
 from app.models.transfer_job import TransferJobInDB, TransferJobBase
-from app.translator.utils import request_translation_config, translate_data
+from app.translator.utils import request_translation_config_from_repo, translate_data
 from app.data_transfer.core import start_transfer
 from app.crud.transfer import transfer_crud
 from app.crud.data_disclosed import data_disclosed_crud
@@ -59,7 +59,8 @@ async def post_transfer_job(
     created_job = await transfer_crud.create(db=db, doc_in=job)
 
     # Retrieve translation config
-    translation_config = await request_translation_config(job)
+    translation_config = await request_translation_config_from_repo(job)
+    # TODO Adress local config generator
 
     # Retrieve the data disclosed for the current user
     filter = {"user_id": job.exportingDataControllerUserId}

@@ -15,9 +15,6 @@ class GlomTranslator(BaseTranslator):
 
     def translate(self, source_data, translation_config):
 
-        # extract the translation config
-        spec = jsonpickle.decode(translation_config)["config"]
-
         if source_data is not None and translation_config is not None:
             return glom(source_data, translation_config)
         else:

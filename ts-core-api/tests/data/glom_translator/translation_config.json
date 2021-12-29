@@ -1,0 +1,30 @@
+{
+    "importingDataController": "test",
+    "exportingDataController": "test",
+    "config": {
+        "name": {
+            "py/object": "glom.core.TType",
+            "py/state": {
+                "py/tuple": [
+                    "T",
+                    "[",
+                    "givenName",
+                    "+",
+                    " ",
+                    "+",
+                    {
+                        "py/object": "glom.core.TType",
+                        "py/state": {
+                            "py/tuple": [
+                                "T",
+                                "[",
+                                "familyName"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "email": "email"
+    }
+}

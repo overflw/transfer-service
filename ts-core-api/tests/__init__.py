@@ -1,6 +1,5 @@
 import os
 import json
-import importlib.util
 
 
 # Load data for tests
@@ -10,7 +9,11 @@ json_sparql_source_path = os.path.join(test_dir, 'data', 'sparql_translator', 's
 json_sparql_query_path = os.path.join(test_dir, 'data', 'sparql_translator','json_sparql_query.rql')
 
 glom_source_data_path = os.path.join(test_dir, 'data', 'glom_translator', 'source_data.json')
-glom_translation_config_path = os.path.join(test_dir, 'data', 'glom_translator', 'translation_config.py')
+glom_translation_config_path = os.path.join(test_dir, 'data', 'glom_translator', 'translation_config.json')
+
+glom_translation_config = json.load(open(glom_translation_config_path))
+with open(glom_translation_config_path) as f:
+    glom_translation_config_string = f.read()
 
 json_sparql_source = json.load(open(json_sparql_source_path))
 

@@ -1,3 +1,4 @@
+import jsonpickle
 import requests
 
 from requests.exceptions import HTTPError
@@ -9,7 +10,7 @@ def translate_data(data, config):
     return translator.translate(data, config)
 
 
-async def request_translation_config(job):
+async def request_translation_config_from_repo(job):
     config = None
 
     # Get the translation config from a remote repository
@@ -18,7 +19,9 @@ async def request_translation_config(job):
 
     # If this no config could be retrived, query a known translation config generator
     if translation_config_gen_url and not config:
-        config = await __send_config_query(job, translation_config_gen_url)
+        config = await __send_config_query(job, translation_config_repo_url)
+
+    config = jsonpickle.decode(config)["config"]
 
     return config
 
