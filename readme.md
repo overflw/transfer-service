@@ -19,6 +19,15 @@ docker-compose -f ts-core-api/docker-compose.yml up  -d &&
 docker-compose -f ts-config-gen/docker-compose.yml up -d
 ```
 
+After running the docker-compose the `ts-core-api` documentation is available via 
+
+    http://localhost:8007/docs
+
+and `ts-config-gen` via
+
+    http://localhost:8008/docs
+
+
 
 ## Concept
 To realize the vision of a portability system which is flexible enough to support a wide range of Controllers, while keeping the integration effort low, we use a semantic schema annotation approach for the underlying data translation problem. The concept consists of the following steps:

@@ -8,9 +8,9 @@ from app.routers import transfer, data_disclosed
 from app.db.mongodb_utils import close_mongo_connection, connect_to_mongo
 
 app = FastAPI(
-    title='DDP API',
+    title='TS API Module',
     version='0.0.1',
-    description='This is the API of a discoverable data portability framework instance.',
+    description='This is the API Module for a Transfer Service instance.',
     license={
         'name': 'European Union Public License 1.2',
         'url': 'https://spdx.org/licenses/EUPL-1.2.html',

@@ -17,7 +17,7 @@ class CRUDBase(Generic[CreateSchemaType, UpdateSchemaType, DBSchemaType]):
         self, 
         model: Type[DBSchemaType], 
         collection_name: str,
-        database_name: str = "ddp"
+        database_name: str = "ts_config"
         ):
         """
         CRUD object with default methods to Create, Read, Update, Delete (CRUD).
